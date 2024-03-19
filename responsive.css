@@ -1,0 +1,14 @@
+@media screen and (max-width:1200px) {
+    #desktop_nav{
+        display: none;
+    }
+    #hamburger_nav{
+        display: flex;
+    }
+}
+
+@keyframes animate {
+    100%{
+        width: 100%;
+    }
+}

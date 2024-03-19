@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css"> 
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="/images/cruz.png" type="image/x-icon">
+
+
+</head>
+<body>
+    <script src="script.js"></script>
+    <nav id="desktop_nav">
+        <div class="logo">Christian</div>
+        <div class="pos">
+            <ul class="nav_links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav> 
+    <nav id="hamburger_nav">
+        <div class="logo">Christian</div>
+        <div class="hamburger_menu">
+            <div class="hamburger_icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu_links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+            <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact"  onclick="toggleMenu()">Contact</a></li>
+        </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section_pic_container">
+            <img src="/images/mypic.png" alt="mypic">
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello, I'm</p>
+            <h1 class="title">Christian David Cruz</h1>
+            <p class="section_text_p2">Software Developer</p>
+            <div class="btn_container">
+                <button class="btn btn-color-2" onclick="window.open('./images/christiancruz_resume.pdf')">
+                Download CV</button>
+
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contact Info</button>
+            </div>
+            <div id="social_container">
+                <a href="https://www.facebook.com/christiandavid.cruz.24/" target="_blank">
+                    <i class='bx bxl-facebook social-icon'></i> 
+                </a>
+                <a href="https://www.instagram.com/christiandv_cruz/" target="_blank">
+                    <i class='bx bxl-instagram social-icon'></i>
+                </a>
+                <a href="https://github.com/lindraaa" target="_blank">
+                    <i class='bx bxl-github social-icon'></i>
+                </a>
+                <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank">
+                    <i class='bx bxl-linkedin social-icon'></i> 
+                </a>
+            </div>
+    </section>
+    <section id="about">
+        
+        <p class="section_text_p1">Get To Know More</p>
+        <h1 class="title2">About Me</h1>
+        <div class="section-container_about">
+            <div class="about_details_container">
+                <div class="about_container">
+                     <div class="text_container">
+                        
+                        <p> <i class='bx bx-chevrons-right' ></i> I am a passionate and dedicated individual who thrives on the excitement of learning and mastering new technologies. With a natural aptitude for picking up new skills</p>
+                        <br>
+                        <p> <i class='bx bx-chevrons-right' ></i>I consider myself a fast learner who is always ready to take on new challenges in the ever-evolving world of technology. My journey into the world of technology began with an insatiable curiosity and a hunger for knowledge. Since discovering my passion, I've been in a relentless pursuit of growth and innovation.
+                        </p>
+                    </div>
+                </div>
+             </div>
+            <div class="section_pic_container_about">
+                <img src="/images/formal.jpg" alt="profilepic" class="about_pic">
+            </div>
+        </div>
+        <div class="belowthings">
+             <h2 class="title3">THINGS I LOVE</h2>
+             <div id="social_container_things">
+                    <i class='bx bx-laptop' ></i>     
+                    <i class='bx bxs-movie-play' ></i>           
+                    <i class='bx bxs-cable-car' ></i>
+                    <i class='bx bxs-bowl-hot' ></i>
+                    <i class='bx bx-coffee' ></i>
+                    <br>
+            </div>
+        </div>
+    </section>
+    <section id="education">
+        <p class="section_text_p1">History</p>
+        <h1 class="title2">Educational Background</h1>
+                <div class="left_content">
+                    <div class="section_2_educ">
+                                <h2 class="title4">Holy Angel University 
+                                <i class='bx bxs-school'></i></h2>
+                                <p><strong>Degree: </strong>Bachelor of Science Major in Computer Engineering</p>
+                                <p><strong>Year: </strong>2020 - 2024</p>
+                                <p>College</p>
+                    
+                                <h2 class="title4">Holy Angel University 
+                                <i class='bx bxs-school'></i></h2>
+                                <p><strong>Strand: </strong>Science, Technology,Engineering, and Mathematics</p>
+                                <p><strong>Year: </strong>2018-2020</p>
+                                <p>Senior High school</p>
+                
+                                <h2 class="title4">Holy Angel University 
+                                <i class='bx bxs-school'></i></h2>
+                                <p><strong>Year: </strong>2014-2028</p>
+                                <p>High school</p>
+                                <div class="image3">
+                                    <img src="/images/laptop.jpg" alt="mypic" class="resizeimage">
+                                </div>
+                    </div>
+                </div>
+            <div class="right_content">
+                <div class="section2_cert">
+                    <ul class="certificate-list">
+                        <h1 class="cert">Certifications:</h1>
+                        <li class="certificate-item">
+                            <p class="title5"><a href="/certificates/Cruz Christian David.pdf" target="_blank">Webinar Entitled: Deep learning & its application to Engineering and Technology</a></p>
+                            <p>Issued by: Holy Angel University</p>
+                            <br>
+                        </li>
+                        
+                        <li class="certificate-item">
+                            <p class="title5"><a href="/certificates/Christian DavidCruz-ITE CPHWFUND 2nd-certificate.pdf" target="_blank">IT Essentials Cisco.</a></p>
+                            <p>Issued by: Cisco Networking Academy</p>
+                            <br>
+                        </li>
+                        <li class="certificate-item">
+                            <p class="title5"><a href="/certificates/Christian DavidCruz-CCNAv7 ITN INCOM-certificate.pdf" target="_blank">CCNAv7: Introduction to Networks</a>
+                            </p>
+                            <p>Issued by: Cisco Networking Academy</p>
+                            <br>
+                        </li>
+                        <li class="certificate-item">
+                            <p class="title5"><a href="/certificates/Christian David Cruz.pdf" target="_blank">Youth Technopreneurs Forum 2022 Superchanging The Future</a>
+                            </p>
+                            <p>Issued by: Dave Del Rosario</p>
+                            <br>
+                        </li>
+                        <li class="certificate-item">
+                            <p class="title5"><a href="/certificates/CRUZ CD.pdf" target="_blank">Seminar Entitled: Optimal Prime: The Quintessential Guide to a Famed Channel</a>
+                            </p>
+                            <p>Issued by: Code Geeks</p>
+                            <br>
+                        </li>
+                        <li class="certificate-item">
+                            <p class="title5"><a href="/certificates/Christian DavidCruz-CCNAv7 ENSA INCO-certificate.pdf" target="_blank">CCNAv7: Enterprise Networking, Security, and Automation</a>
+                            </p>
+                            <p>Issued by: Cisco Networking Academy</p>
+                            <br>
+                        </li>
+                        <li class="certificate-item">
+                            <p class="title5"><a href="/certificates/data studio.pdf" target="_blank">Introduction to Data Studio</a>
+                            </p>
+                            <p>Issued by: Google Analytics Academy</p>
+                            <br>
+                        </li>
+                        <li class="certificate-item">
+                            <p class="title5"><a href="/certificates/google analytics.pdf" target="_blank">Google Analytics for Beginners</a>
+                            </p>
+                            <p>Issued by: Google Analytics Academy</p>
+                            <br>
+                        </li>
+                        <li class="certificate-item">
+                            <p class="title5"><a href="/certificates/django_certificate.pdf" target="_blank">Computer Engineer's Bootcamp: Let's Learn to Code Using Django</a>
+                            </p>
+                            <p>Issued by: Holy Angel University</p>
+                            <br>
+                        </li>
+                        <li class="certificate-item">
+                            <p class="title5"><a href="/certificates/Python_Essentials_1_Badge_Cruz_Christian.pdf" target="_blank">Python Essentials 1 Course</a>
+                            </p>
+                            <p>Issued by: Cisco Networking Academy</p>
+                            <br>
+                        </li>
+                        <li class="certificate-item">
+                            <p class="title5"><a href="/certificates/Christian DavidCruz-Intro to Cyberse-certificate.pdf" target="_blank">Introduction to Cybersecurity</a>
+                            </p>
+                            <p>Issued by: Cisco Networking Academy</p>
+                            <br>
+                        </li>
+                        <li class="certificate-item">
+                            <p class="title5"><a href="/certificates/Christian DavidCruz-IoT Connecting T-certificate (1).pdf" target="_blank">IoT Fundamentals: Connecting Things</a>
+                            </p>
+                            <p>Issued by: Cisco Networking Academy</p>
+                            <br>
+                        </li>
+                        
+                </div>
+            </div>
+    </section>
+    <section id="skills">
+        <p class="section_text_p1">Ability</p>
+        <h1 class="title2">My Skills</h1>
+        <div class="left_content">
+            <div class="sub_title">
+                <h2 class="tech">Technical</h2>
+                <br>
+                <p><b><i class='bx bx-chevrons-right' ></i>Programming </b></p><br>
+            </div>
+        
+            <div class="skills_container">
+                <div class="skills">
+                    <div class="subject">C++</div>
+                    <div class="progress_bar" value="75%">
+                        <div class="progress_line" style="max-width: 75%;"></div>
+                    </div>
+                </div>
+            
+                <div class="skills">
+                    <div class="subject">Java</div>
+                    <div class="progress_bar" value="60%">
+                        <div class="progress_line" style="max-width: 60%;"></div>
+                    </div>
+                </div>
+            
+                <div class="skills">
+                    <div class="subject">Python</div>
+                    <div class="progress_bar" value="80%">
+                        <div class="progress_line" style="max-width: 80%;"></div>
+                    </div>
+                </div>
+            
+                <div class="skills">
+                    <p><b><i class='bx bx-chevrons-right' ></i>Scripting</b></p><br>
+                    <div class="subject">HTML</div>
+                    <div class="progress_bar" value="70%">
+                        <div class="progress_line" style="max-width: 70%;"></div>
+                    </div>
+                </div>
+            
+                <div class="skills">
+                    <div class="subject">CSS</div>
+                    <div class="progress_bar" value="65%">
+                        <div class="progress_line" style="max-width: 65%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="right_content">
+        <div class="sub_title">
+            <h2 class="tech">Soft </h2><br>
+            <p><b><i class='bx bx-chevrons-right' ></i>Professional</b></p><br></b>
+        </div>
+    
+        <div class="skills_container">
+            <div class="skills">
+                <div class="subject">Communication</div>
+                <div class="progress_bar" value="75%">
+                    <div class="progress_line" style="max-width: 75%;"></div>
+                </div>
+            </div>
+        
+            <div class="skills">
+                <div class="subject">Teamwork and Collaboration</div>
+                <div class="progress_bar" value="85%">
+                    <div class="progress_line" style="max-width: 85%;"></div>
+                </div>
+            </div>
+        
+            <div class="skills">
+                <div class="subject">Problem Solving</div>
+                <div class="progress_bar" value="80%">
+                    <div class="progress_line" style="max-width: 80%;"></div>
+                </div>
+            </div>
+        
+            <div class="skills">
+                <div class="subject">Time Management</div>
+                <div class="progress_bar" value="95%">
+                    <div class="progress_line" style="max-width:95%;"></div>
+                </div>
+            </div>
+        
+            <div class="skills">
+                <div class="subject">Leadership skills</div>
+                <div class="progress_bar" value="70%">
+                    <div class="progress_line" style="max-width: 70%;"></div>
+                </div>
+            </div>
+       </div>
+    </div>
+    <div class="centered_programming_logos">
+        <i class='bx bxl-c-plus-plus' ></i>
+        <i class='bx bxl-java' ></i>
+        <i class='bx bxl-python' ></i>
+        <i class='bx bxl-html5' ></i>
+        <i class='bx bxl-css3' ></i>
+    </div>
+    
+    </section>
+
+    <section id="projects">
+        <p class="section_text_p1">Explore</p>
+        <h1 class="title2">Projects</h1>
+    </section>
+
+
+
+    <section id="contact">
+        <p class="section_text_p1">Message me</p>
+        <h1 class="title2">Contacts</h1>
+
+    </section>
+</body>
+</html>
